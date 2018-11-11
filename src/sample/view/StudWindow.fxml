@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0f0c32;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.StudWindowController">
+    <children>
+        <AnchorPane layoutY="66.0" prefHeight="333.0" prefWidth="600.0" style="-fx-background-color: #ffebbf;">
+            <children>
+                <Label layoutX="151.0" layoutY="30.0" text="Добро пожаловать в систему!" textFill="#11124d">
+                    <font>
+                        <Font name="Century Gothic Bold Italic" size="19.0" />
+                    </font>
+                </Label>
+                <Button fx:id="StudDataButton" layoutX="185.0" layoutY="102.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="230.0" style="-fx-background-color: #e57157;" text=" Посмотреть данные" textFill="#0f0c30">
+                    <font>
+                        <Font name="Century Gothic Bold Italic" size="18.0" />
+                    </font>
+                </Button>
+              <Button fx:id="SingOutButton" layoutX="185.0" layoutY="189.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="230.0" style="-fx-background-color: #e57157;" text="Выйти из системы" textFill="#0f0c30">
+                  <font>
+                      <Font name="Century Gothic Bold Italic" size="17.0" />
+                  </font>
+              </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
